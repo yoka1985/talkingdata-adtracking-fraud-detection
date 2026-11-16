@@ -1,0 +1,16 @@
+{
+  "id": "yoka33/talkingdata-lgbm-gpu",
+  "title": "talkingdata lgbm gpu",
+  "code_file": "main.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": [
+    "talkingdata-adtracking-fraud-detection"
+  ],
+  "kernel_sources": []
+}

@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*.npy
+*.npz
+*.zip
+*.gz
+data/
+outputs/
+cache/
+td_cache/
+submission*.csv
+!ablation_v2/*.csv
+.ipynb_checkpoints/

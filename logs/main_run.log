@@ -1,0 +1,27 @@
+[{"stream_name":"stdout","time":9.441008809,"data":"Locating competition files under /kaggle/input...\n"}
+,{"stream_name":"stdout","time":9.441682519,"data":"Found Train Path: /kaggle/input/competitions/talkingdata-adtracking-fraud-detection/train.csv\n"}
+,{"stream_name":"stdout","time":9.441701959,"data":"Found Test Path:  /kaggle/input/competitions/talkingdata-adtracking-fraud-detection/test.csv\n"}
+,{"stream_name":"stdout","time":9.441705869,"data":"Loading training dataset...\n"}
+,{"stream_name":"stdout","time":190.460891243,"data":"Training LightGBM model...\n"}
+,{"stream_name":"stdout","time":203.094579175,"data":"[LightGBM] [Info] Number of positive: 96593, number of negative: 37403407\n"}
+,{"stream_name":"stdout","time":205.741928759,"data":"[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.603507 seconds.\n"}
+,{"stream_name":"stdout","time":205.742005139,"data":"You can set `force_row_wise=true` to remove the overhead.\n"}
+,{"stream_name":"stdout","time":205.742011099,"data":"And if memory is not enough, you can set `force_col_wise=true`.\n"}
+,{"stream_name":"stdout","time":205.742231809,"data":"[LightGBM] [Info] Total Bins 2951\n"}
+,{"stream_name":"stdout","time":205.744261079,"data":"[LightGBM] [Info] Number of data points in the train set: 37500000, number of used features: 15\n"}
+,{"stream_name":"stdout","time":207.011676907,"data":"[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.002576 -\u003e initscore=-5.959011\n"}
+,{"stream_name":"stdout","time":207.030875768,"data":"[LightGBM] [Info] Start training from score -5.959011\n"}
+,{"stream_name":"stdout","time":208.043678506,"data":"Training until validation scores don't improve for 50 rounds\n"}
+,{"stream_name":"stdout","time":251.034322202,"data":"[50]\tvalid_0's auc: 0.93952\n"}
+,{"stream_name":"stdout","time":251.938552905,"data":"Early stopping, best iteration is:\n"}
+,{"stream_name":"stdout","time":251.938770845,"data":"[1]\tvalid_0's auc: 0.9693\n"}
+,{"stream_name":"stdout","time":252.261813004,"data":"Processing test dataset...\n"}
+,{"stream_name":"stdout","time":296.430659499,"data":"Generating predictions...\n"}
+,{"stream_name":"stdout","time":330.973084551,"data":"Execution complete. Output saved.\n"}
+,{"stream_name":"stderr","time":334.337283047,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":334.337354447,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":334.690806629,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":334.690853389,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":336.704288467,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":338.029746272,"data":"[NbConvertApp] Writing 308879 bytes to __results__.html\n"}
+]
